@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tourism Website</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Sunnyside Tioman Resort</h1>
+      </header>
+    <nav class="menu">
+        <ul>
+          <li><a href="#main">Main</a></li>
+          <li><a href="#Table">Accommodation</a></li>
+          <li><a href="#Availability">Book Now !!</a></li>
+          <li><a href="#forms">Contact Us</a></li>
+        </ul>
+      </nav>
+      
+      
+      
+    <main id = 'main' >
+
+        <img src="image/picture 1.jpg" alt="beach scenery"class = "picture1" width="1000" height="500" />
+        <p>Be surrounded by a tropical paradise with miles of a palm-fringed beach, crystal clear waters and surrounding misty mountains.
+         Elevate your holiday experience at our tousrist destination as you dine and drink to your heart's content, along with a myriad of other unlimited inclusions. 
+         It’s time to rediscover this majestic sanctuary! </p>
+
+
+
+<section class ="exp">
+    <h2>Experience's and Activities</h2>
+   <ul>
+        <li>Diving
+            <img src="image/scuba.avif" alt="Diving"class="picture2" width="500" height="250" />  </li>
+        <li>Recreational activities
+            <img src="image/recreational activites.webp" alt="recreational activities" class="picture2"width="500" height="250" />
+        </li>
+        <li>Beach Walks
+            <img src="image/beach waking.jpg" alt="beach walking" class="picture2"width="500" height="250" /> </li>
+        <li>Snorkeling
+            <img src="image/snorkeling.jpg" alt="Snorkeling"class="picture2" width="500" height="250" />
+        </li>
+   </ul>
+</section>
+    </main>
+    <section id = 'Table'>
+        <h2>Accomodations</h2>
+     <table>
+<tr>
+<th> Rooms</th>
+<th> Prices per night</th>
+<th> Details</th>
+</tr>
+<tr>
+<td>Single bed</td>
+<td>100 $</td>
+<td>
+     <ul>
+    <li>Fit comfortably for 1 person </li>
+    <li>Beachside views </li>
+    <li>1 bathroom  </li>
+    </ul> 
+</td>
+</tr>
+<tr>
+    <td>Double bed</td>
+    <td>250 $</td>
+    <td>
+         <ul>
+        <li>Fit comfortably for 2 person </li>
+        <li>Beachside views </li>
+        <li>1 bathroom </li>
+        </ul> 
+    </td>
+    </tr>
+    <tr>
+        <td>Suite</td>
+        <td>500 $</td>
+        <td>
+             <ul>
+            <li>Fit comfortably for 4-5 person </li>
+            <li>Beachside views </li>
+            <li>2 bathrooms </li>
+            <li>A pool </li>
+            </ul> 
+        </td>
+        </tr>
+     </table>       
+    </section>
+    <section id ='Availability'>
+        <h2>Check Availability</h2>
+        <aside>
+    <form action="success.html" method="get" >
+        <label for="name">Check-in Date</label>
+        <input type="date" name ="Check-in" id="Check-in" >
+        <br></br>
+        <label for="name">Check-Out Date</label>
+        <input type="date" name ="Check-Out" id="Check-Out" >
+        <br></br>
+        <label for="Adult">Adult</label>
+        <input type="number" id="number" value="0" >
+        <br></br>
+        <label for="Child">Child</label>
+        <input type="number" id="number" value="0" >
+        <br></br>
+        <input type="radio" name="room" id="room " value ="room 1" checked>Single bed</input>
+        <br><br>
+        <input type="radio" name="room" id="room " value ="room 2">Double bed</input>
+        <br></br>
+        <input type="radio" name="room" id="room " value ="room 2">Suite</input>
+        <br></br>
+        <input type="submit" name ="submit" value="Book Now" >
+    </form>
+        </aside>
+    </section>
+    <section id="forms">
+        <h2>Contact Us</h2>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required /><br />
+      
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required /><br />
+      
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea><br />
+      
+          <input type="submit" value="Submit" />
+        </form>
+      </section>
+
+</body>
+<footer>
+    <p>&copy; 2023 My Tourism Website. All rights reserved.</p>
+</footer>
+</html>
